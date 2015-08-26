@@ -61,12 +61,12 @@ and open the template in the editor.
             <p  id="cerrar">cerrar</p>
         </div>
         <script>
-            var c = document.getElementById("#cerrar");
+            var c = document.getElementById("cerrar");
             c.addEventListener("click",cerrar_div,false);
            
 		   
 		    function cerrar_div(){
-               $("#ban").remove();
+               $("#ban").replaceWith("<h1>HOLAAAAA</h1>")();
 
             }
 
